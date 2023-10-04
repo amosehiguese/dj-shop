@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'cart.apps.CartConfig',
     'shop_app.apps.ShopAppConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -125,3 +126,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+
+# cart
+CART_SESSION_ID = 'cart'
