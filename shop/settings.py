@@ -37,7 +37,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'parler',
     'rosetta',
+    # 'localflavor',
     'coupons.apps.CouponsConfig',
     'payment.apps.PaymentConfig',
     'orders.apps.OrdersConfig',
@@ -168,3 +170,14 @@ REDIS_HOST = os.getenv("REDIS_HOST")
 REDIS_PORT = os.getenv("REDIS_PORT")
 REDIS_DB = os.getenv("REDIS_DB")
 
+# DJANGO-PARLER SETTINGS
+PARLER_LANGUAGES = {
+    None: (
+        {'code': 'en'},
+        {'code': 'es'},
+    ),
+    'default': {
+        'fallback': 'en',
+        'hide_untranslated': False,
+    }
+}
