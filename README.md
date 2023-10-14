@@ -1,7 +1,8 @@
 ## This is a fully-featured on-line shop made in Django
 
-![application image](./docs/img/dj-shop-en.png)
-![application image](./docs/img/dj-shop-es.png)
+| Home Page in English                            | In Español                                      |
+| ----------------------------------------------- | ----------------------------------------------- |
+| ![application image](./docs/img/dj-shop-en.png) | ![application image](./docs/img/dj-shop-es.png) |
 
 The features of this application are:
 
