@@ -14,7 +14,7 @@ The features of this application are:
 - Integrates [Stripe](https://stripe.com/) to process payments.
 - Implements a webhook to receive payment notifications from Stripe.
 - Uses a customized view in the Django administration site.
-- Creates admin actions and enables generation of CSV files.
+- Implements admin actions and enables generation of CSV files.
 - Generates PDF invoices dynamically using [Weasyprint](https://weasyprint.org/).
 - Uses a coupon system to apply discounts to orders which integrates with Stripe payments.
 - Implements a product recommendation engine using Redis.
